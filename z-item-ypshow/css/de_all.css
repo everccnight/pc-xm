@@ -1,0 +1,78 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin:0; padding:0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-size:100%;
+}
+address, cite, dfn, em, var {
+    font-style:normal;
+}
+code, kbd, pre, samp {
+    font-family:couriernew,
+    courier, monospace;
+}
+small{
+    font-size:12px;
+}
+ul, ol ,li{
+    list-style:none;
+}
+a {
+    text-decoration:none;
+}
+a:hover {
+    color:red;
+}
+sup {
+    vertical-align:text-top;
+}
+sub{
+    vertical-align:text-bottom;
+}
+legend {
+    color:#000;
+}
+fieldset, img {
+    border:0;
+}
+button, input, select, textarea {
+    font-size:100%;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+body{
+    font-size: 12px;
+}
+.left{
+    float: left;
+}
+.right{
+    float:right;
+}
+.inline{
+    display: inline;
+}
+.red{
+    color:red;
+}
+.formtitle_h{
+    border: 1px solid red;
+    z-index: 999;
+    position: relative;
+}
+.ul_title_li_h {
+    background: url(../img/hdm.gif) no-repeat bottom;
+    color: #c82324;
+    font-weight: bold;
+    z-index: 999;
+    position: relative;
+}
+.thr_floor_right_tt_li_h{
+    color: #c82324;
+    background: url(../img/hdm1.gif) no-repeat bottom;
+    margin-top:2px;
+    height:32px;
+    width:166px;
+}

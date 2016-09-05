@@ -1,0 +1,222 @@
+#verify{
+    width: 1208px;
+    margin:170px  auto  0;
+    border: solid 1px #e4e4e4;
+    overflow: hidden;
+    border-radius: 4px;
+    clear: both;
+    height:564px;
+}
+#verify_login{
+    width: 470px;
+    border-right: solid 1px #e4e4e4;
+    height:564px;
+    float: left;
+}
+#verify_login h2{
+    display: block;
+    padding: 10px 0 6px 12px;
+    font-size: 16px;
+    border-bottom: solid 2px #eee;
+    margin: 0;
+    color: #333;
+}
+#verify_login h2 em{
+    font-size: 12px;
+    color: #d0000b;
+    font-style: normal;
+    font-weight: normal;
+    padding: 0 8px
+}
+#verify_login p{
+    display: block;
+    font-size: 12px;
+    line-height: 30px;
+    height: 30px;
+    margin: 12px 0;
+}
+#verify_login p .verify_name{
+    width: 60px;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #333;
+    display: block;
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+    height: 30px;
+}
+#verify_login p .verify_input{
+    margin: 0 6px;
+    width: 150px;
+    display: block;
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+    height: 30px;
+}
+#verify_login p .verify_input input{
+    font-size: 12px;
+    color: #333;
+    height: 28px;
+    width: 136px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0 6px;
+    border-radius: 3px;
+    background: #f9f9f9;
+    border: solid 1px #e4e4e4;
+    box-shadow: inset #eee 3px 3px 3px;
+}
+#verify_login p .verify_ask{
+    color: #999;
+    display: block;
+    float: left;
+    width: auto;
+    font-size: 12px;
+    line-height: 30px;
+    height: 30px;
+
+}
+#verify_login p .verify_change{
+    height: 22px;
+    line-height: 22px;
+    padding: 4px 6px 4px 0;
+    display: block;
+    float: left;
+    font-size: 12px;
+    margin-left: 5px;
+}
+#verify_login p .verify_change a{
+    line-height: 22px;
+    color: #0066cc;
+}
+#verify_login p .verify_change a:HOVER{
+    text-decoration: underline;
+}
+#verify_login .verify_submit{
+    text-align: left;
+    padding: 12px 0;
+    height: 34px;
+}
+#verify_login .verify_submit button{
+    outline:none;
+    border:none;
+    background: transparent;
+    cursor: pointer;
+}
+#verify_login .verify_submit a{
+    color: #0066cc;
+    position: relative;
+    top: -14px;
+    padding-left: 6px;
+}
+#verify_login .verify_submit a:hover{
+    text-decoration: underline;
+}
+/*ÓÒ±ß×¢²á½çÃæ*/
+#verify_post{
+    width: 638px;
+    border-left: solid 1px #e4e4e4;
+    left: -1px;
+    float: left;
+    padding: 8px;
+    position: relative;
+    height:564px;
+}
+#verify_post h2{
+    display: block;
+    padding: 10px 0 6px 12px;
+    font-size: 16px;
+    border-bottom: solid 2px #eee;
+    margin: 0;
+    color: #333;
+}
+#verify_post p{
+    display: block;
+    font-size: 12px;
+    line-height: 30px;
+    height: 30px;
+    margin: 12px 0;
+}
+#verify_post p .verify_name{
+    width: 60px;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #333;
+    display: block;
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+    height: 30px;
+}#verify_post p .verify_name em{
+     color: #d0000b;
+ }
+#verify_post p .verify_input{
+    margin: 0 6px;
+    width: 150px;
+    display: block;
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+    height: 30px;
+}
+#verify_post p .verify_input input{
+    font-size: 12px;
+    color: #333;
+    height: 28px;
+    width: 136px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0 6px;
+    border-radius: 3px;
+    background: #f9f9f9;
+    border: solid 1px #e4e4e4;
+    box-shadow: inset #eee 3px 3px 3px;
+}
+#verify_post p .verify_ask{
+    color: #999;
+    display: block;
+    float: left;
+    width: auto;
+    font-size: 12px;
+    line-height: 30px;
+    height: 30px;
+
+}
+#verify_post p .verify_input_checkbox{
+    float: left;
+    margin-left:50px;
+    margin-right:40px;
+}
+#verify_post textarea{
+    border: solid 1px #e4e4e4;
+    margin: 12px 0;
+    padding: 8px;
+    height: 100px;
+    width: 520px;
+    color: #666;
+    background: #f9f9f9;
+    border-radius: 3px;
+    box-shadow: inset #eee 3px 3px 3px;
+    resize: none;
+    outline: none;
+}
+#verify_ .verify_submit{
+    text-align: left;
+    padding: 12px 0;
+    height: 34px;
+}
+#verify_post .verify_submit button{
+    outline:none;
+    border:none;
+    background: transparent;
+    cursor: pointer;
+}
+#v_check_change{
+    background:url("../img/logon_img/yzm.gif");
+}

@@ -1,0 +1,237 @@
+#la_fo{
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    bottom: 0;
+    z-index: 9999;
+
+
+}
+#la_fo_mo{
+    position: absolute;
+    opacity: 0.65;
+    filter:alpha(opacity:65);
+    background: #000;
+    height:26px;
+    width:100%;
+    z-index: 9999;
+}
+#la_fo ul{
+    margin-top: 2px;
+    float: right;
+}
+#la_fo ul li{
+    float: left;
+    margin-left: 4px;
+    display: inline;
+    position: relative;
+    z-index: 99999;
+}
+/*--------------------------------------右边固定定位块------------------------*/
+#ri_fo{
+    position: absolute;
+    z-index: 2000;
+    width: 168px;
+    top:215px;
+    right: 0;
+    display: block;
+}
+#ri_fo_to{
+    height: 30px;
+    background: transparent url("../img/panel_top.png") repeat scroll 0 0 !important;
+}
+#ri_fo_to .phone{
+    position: absolute;
+    left: 12px;
+    top: 9px;
+}
+#ri_fo_to .close{
+    position: absolute;
+    right: 9px;
+    top: 9px;
+}
+#ri_fo_to .close a{
+    cursor: pointer;
+}
+#ri_fo_do{
+    width: 142px;
+    height: 162px;
+    margin-left: 7px;
+    border-top: none;
+    border-right:7px solid #A5A6A6;
+    border-left:5px solid #A5A6A6;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-bottom:5px solid #A5A6A6;
+
+}
+#ri_fo_do_mi{
+    position: relative;
+    width: 142px;
+    height: 162px;
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid rgb(102, 102, 102);
+    padding-left: 0;
+
+}
+#ri_fo_do_mi p{
+    width:142px;
+    height: 22px;
+    line-height: 22px;
+    background: #E1E1E1;
+    color: #1E8FBB;
+    text-align: center;
+    overflow: hidden;
+}
+#ri_fo_do_mi h3{
+    float: left;
+    padding: 3px 7px 0 7px;
+    width: 121px;
+    line-height: 18px;
+    color: #9D5946;
+}
+#ri_fo_do_mi ul{
+    margin: 0 0 0 7px;
+    padding: 2px 0 6px 0;
+    width: 128px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#ri_fo_do_mi ul li{
+    background:url("../img/123.gif") no-repeat scroll left center;
+    padding-left: 16px;
+    height:24px;
+    width: 128px;
+}
+#ri_fo_do_mi ul li a{
+    color: #292929;
+    cursor: pointer;
+    line-height: 24px;
+}
+#open{
+    position: absolute;
+    z-index: 2000;
+    right: 0;
+    width:36px;
+    height:36px;
+    border: 3px solid #A5A6A6;
+    border-radius: 2px;
+}
+/*--------------------弹出按钮-----------------------*/
+#help{
+    position:fixed;
+    width:441px;
+    right:135px;
+    bottom:38px;
+    height:343px;
+    z-index:99999;
+}
+#help .up{
+    height: 10px;
+    overflow: hidden;
+}
+#help .mid{
+    width:441px;
+    height:313px;
+    overflow: hidden;
+    background: url("../img/helpicon_new_05.gif") repeat-y;
+    position: relative;
+}
+#help .mid .mid_close{
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+#help .mid h3{
+    padding-left:10px;
+    padding-top:5px;
+
+
+}
+#help .mid .question{
+    border-bottom: #e4e4e4 1px solid;
+    padding-bottom: 4px;
+    margin-left:10px;
+    border-top: #e4e4e4 1px solid;
+    padding-top: 4px;
+    height:70px;
+    width:420px;
+}
+#help .mid .question ul li{
+    float:left;
+    padding-right:16px;
+
+}
+#help .mid .question ul li a{
+    color: #aa0009;
+}
+#help .mid .question ul li a:hover{
+    text-decoration: underline;
+}
+#help .mid .question p{
+    height: 20px;
+    padding-top: 8px;
+}
+#help .mid .question p input{
+    border-bottom: #e4e4e4 1px solid;
+    border-left: #e4e4e4 1px solid;
+    margin-top:10px;
+    display: block;
+    color: #888;
+    border-top: #e4e4e4 1px solid;
+    border-left: #e4e4e4 1px solid;
+    float: left;
+    height: 18px;
+}
+#help .mid .question p span{
+    float: left;
+    height: 22px;
+    margin-top: 10px;
+}
+#help .mid .alsoques{
+    margin-left:10px;
+}
+#help .mid .alsoques strong{
+    line-height:25px;
+}
+#help .mid .alsoques p{
+    line-height: 22px;
+    color:#888;
+}
+#help .mid .alsoques textarea{
+    border: #ccc 1px solid;
+    margin: -1px 0;
+    width: 399px;
+    height: 60px;
+    font-size: 12px;
+    padding:4px;
+}
+#help .mid .alsoques dl{
+    height:26px;
+    margin-top:6px;
+}
+#help .mid .alsoques dl dt{
+    float:left;
+}
+#help .mid .alsoques dl dd{
+    float:left;
+    margin-left:7px
+}
+#help .mid .alsoques dl dd input{
+    width:350px;
+}
+#help .mid .alsoques button{
+    padding-left: 8px;
+    padding-right: 8px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+#help .mid .alsoques .btn1{
+    margin-left:140px;
+}
+#help .down{
+    height:20px;
+    overflow: hidden;
+}

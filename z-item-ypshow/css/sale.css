@@ -1,0 +1,211 @@
+#sale{
+    margin: 170px auto 10px;
+    width: 1200px;
+    overflow:hidden;
+}
+#clock{
+    background: #50078d;
+    clear: both;
+
+}
+#imggift{
+    height: 251px;
+    width: 946px;
+    margin: 0 auto;
+    background: url(../img/sale/topbanner.jpg) no-repeat;
+    position: relative;
+}
+#imggift img{
+    left: 20px;
+    top: 230px;
+    position: absolute;
+    z-index: 9999;
+    cursor: pointer;
+}
+#rule{
+    display: none;
+    background: url(../img/sale/bg.png);
+    height: 236px;
+    width: 885px;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 14px;
+    position: absolute;
+    top: 248px;
+    left: 28px;
+    z-index: 9990;
+}
+#rule div{
+    width: 800px;
+    margin: 0 auto;
+}
+#rule div p{
+    margin-bottom: 10px;
+}
+/*-------------------秒杀专区列表----------*/
+#sale_list{
+    width: 946px;
+    margin: 20px auto 0;
+}
+#sale_list_title{
+    background: url(../img/sale/titlebg.png) no-repeat;
+    height: 34px;
+    text-align: right;
+}
+#sale_list_title a{
+    padding-top: 10px;
+    padding-left: 4px;
+    color: #ffffff;
+    line-height: 36px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+#sale_list_title a:hover{
+    color:yellow;
+    text-decoration: underline;
+}
+
+#sale_list_border{
+    width: 940px;
+    border: 3px #DDDDDD solid;
+    clear: both;
+    padding-bottom: 10px;
+}
+#sale_list_all .sale_list_all_l{
+    float: left;
+    width: 430px;
+    margin: 4px 4px 4px 4px;
+    border: 3px #652D98 solid;
+    padding: 25px 19px 27px 10px;
+    min-height:30px;
+}
+#sale_list_all .sale_list_all_r{
+    float: right;
+    width: 430px;
+    margin: 4px 4px 4px 4px;
+    clear: right;
+    border: 3px #652D98 solid;
+    padding: 25px 19px 27px 10px;
+    min-height:30px;
+}
+#sale_list_all .sale_list_all_l a img{
+    border: none;
+    width: 218px;
+    height: 218px;
+    float: left;
+}
+#sale_list_all .sale_list_all_l span{
+    float: right;
+    display: block;
+    width: 210px;
+}
+#sale_list_all .sale_list_all_l span a{
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    display: block;
+    overflow: hidden;
+    width: 220px;
+    margin: 0 8px 20px;
+    border-bottom: 1px #d8d2ba solid;
+    line-height: 22px;
+    font-weight: bold;
+}
+#sale_list_all .sale_list_all_l span p{
+    font-size: 14px;
+    color: #333;
+    line-height:20px;
+}
+#sale_list_all .sale_list_all_l span h3{
+    text-decoration: line-through;
+    font-size: 14px;
+    padding-top: 5px;
+    color: rgb(153, 153, 153);
+    line-height:20px;
+}
+#sale_list_all .sale_list_all_l span h2{
+    color: Red;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
+#sale_list_all .sale_list_all_l span h2 strong{
+    font-size: 18px;
+}
+#sale_list_all .sale_list_all_l span h1{
+    float: right;
+    display: block;
+    width: 210px;
+}
+#sale_list_all .sale_list_all_l span h1 button{
+    border: none;
+    float: right;
+    margin-right: 7px;
+    margin-top: 10px;
+    width:107px;
+    height:47px;
+    cursor: pointer;
+    outline: none;
+}
+/**/
+#sale_list_all .sale_list_all_r a img{
+    border: none;
+    width: 218px;
+    height: 218px;
+    float: left;
+}
+#sale_list_all .sale_list_all_r span{
+    float: right;
+    display: block;
+    width: 210px;
+}
+#sale_list_all .sale_list_all_r span a{
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    display: block;
+    overflow: hidden;
+    width: 220px;
+    margin: 0 8px 20px;
+    border-bottom: 1px #d8d2ba solid;
+    line-height: 22px;
+    font-weight: bold;
+}
+#sale_list_all .sale_list_all_r span p{
+    font-size: 14px;
+    color: #333;
+    line-height:20px;
+}
+#sale_list_all .sale_list_all_r span h3{
+    text-decoration: line-through;
+    font-size: 14px;
+    padding-top: 5px;
+    color: rgb(153, 153, 153);
+    line-height:20px;
+}
+#sale_list_all .sale_list_all_r span h2{
+    color: Red;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
+#sale_list_all .sale_list_all_r span h2 strong{
+    font-size: 18px;
+}
+#sale_list_all .sale_list_all_r span h1{
+    float: right;
+    display: block;
+    width: 210px;
+}
+#sale_list_all .sale_list_all_r span h1 button{
+    border: none;
+    float: right;
+    margin-right: 7px;
+    margin-top: 10px;
+    width:107px;
+    height:47px;
+    cursor: pointer;
+    outline: none;
+}
